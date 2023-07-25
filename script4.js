@@ -7,7 +7,7 @@ if (answer.toLowerCase() === "y") {
     "Would you like to go left or go right (left/right)? "
   );
 
-  if (answer2 === "left") {
+  if (answer2.toLowerCase() === "left") {
     console.log("Oops, you go left and fall of a bridge! You lost!");
   } else {
     // right
@@ -16,7 +16,7 @@ if (answer.toLowerCase() === "y") {
       "Would you like to cross the bridge, or turn around and find another way (cross/turn)? "
     );
 
-    if (answer3 === "cross") {
+    if (answer3.toLowerCase() === "cross") {
       console.log("You cross the bridge and reach the end of the game!");
     } else {
       console.log(
